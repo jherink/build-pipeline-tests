@@ -4,8 +4,9 @@
 # https://aka.ms/yaml
 
 trigger:
-- tags:
-  - GO
+  tags:
+    include:
+    - "GO"
 
 variables:
 - group: release-variables
